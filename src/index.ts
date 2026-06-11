@@ -51,7 +51,7 @@ export const unpluginFactory: UnpluginFactory<PluginOptions | undefined> = (
           ],
         },
         code: {
-          include: [/from\s*['"]zod\/v4['"]/],
+          include: [/from\s*['"]zod(?:\/v4)?['"]/],
         },
       },
       handler(code, id) {

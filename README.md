@@ -15,7 +15,7 @@ Universal plugin for transforming JSDoc comments on Zod schemas into runtime met
 > [!IMPORTANT]
 > This plugin works with Zod >= 3.25.0 (v4 preview) or Zod >= 4.0.0 (v4 stable).
 >
-> You need to import `zod/v4` instead of `zod` to use this plugin.
+> Import `zod/v4` (Zod v3 compat/v4 preview) or `zod` (Zod v4 stable) to use this plugin.
 
 ## Installation
 
